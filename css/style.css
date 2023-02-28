@@ -1,0 +1,71 @@
+:root{
+    --bg-header: #2C3E50;
+    --bg-green:#1ABC9C;
+}
+/* COMMON */
+img{
+    max-width: 100%;
+}
+
+.ms_header{
+    background-color:var(--bg-header);
+    color: white;
+
+}
+.ms_bg-header{
+    background-color: var(--bg-header);
+     
+}
+.ms_button-nav{
+    border-color: white;
+}
+/* MAIN */
+.ms_bg-green{
+    background-color: var(--bg-green);
+
+}
+.ms_avatar{
+    width: 200px;
+}
+.ms_line{
+    height: 3px;
+    width: 10%;
+    /* background-color: white; */
+    vertical-align: middle;
+
+}
+.ms_container{
+    width: 70%;
+    margin: 0 auto;
+}
+.ms_download::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f019";
+    margin-right: .5rem;
+}
+.ms_text{
+    height: 200px;
+    overflow: auto;
+
+}
+
+.ms_form input{
+    border-top:0;
+    border-left:0;
+    border-right:0;
+}
+.ms_submit{color: white;
+    background-color: var(--bg-green);
+}
+.ms_footer-top{
+    background-color:#3A546D;
+}
+span{
+    width: 30px;
+    height: 30px;
+   
+}
+.ms_footer-bottom{
+    background-color: var(--bg-header);
+}

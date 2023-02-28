@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- HEADER -->
+   <header class="ms_header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg text-uppercase ms_bg-header">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-2 text-white" href="#">Start bootstrap</a>
+                <button class="navbar-toggler ms_button-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav align-items-end">
+                    <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+                    <a class="nav-link text-white" href="#">Portfolio</a>
+                    <a class="nav-link text-white" href="#">about</a>
+                    <a class="nav-link text-white " href="#">contact</a>
+                    </div>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </header>
+   <!-- /HEADER -->
+   <!-- MAIN -->
+   <main>
+    <section class="ms_bg-green text-white py-4">
+        <div class="container-fluid text-center">
+            <img src="img/avatar.svg " alt="avatar" class="ms_avatar">
+            <h1 class="text-uppercase">start bootsrap</h1>
+            <div class=" d-inline-block  bg-white ms_line"></div>
+            <i class="fa-solid fa-star"></i>
+            <div class=" d-inline-block bg-white ms_line" ></div>
+            <h6 class="text-uppercase">graphic artist,web designer,illustrator
+            </h6>
+        </div>
+    </section>
+    <section class="py-4">
+        <div class="container text-center">
+            <h4 class="text-uppercase">Portfolio</h4>
+            <div class=" d-inline-block bg-black ms_line "></div>
+            <i class="fa-solid fa-star"></i>
+            <div class=" d-inline-block bg-black ms_line " ></div>
+            <div class="row g-3 mt-2">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/cabin.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/cake.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/circus.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/game.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/safe.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="img/submarine.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="ms_bg-green py-4">
+        <div class="ms_container">
+            <div class="container-fluid text-white text-center">
+                <h4 class="text-uppercase">about</h4>
+                <div class=" d-inline-block bg-white ms_line "></div>
+                <i class="fa-solid fa-star"></i>
+                <div class=" d-inline-block bg-white ms_line " ></div>
+                <div class="row row-cols-1 row-cols-md-2 mt-2">
+                    <div class="col">
+                        <p>
+                            Freelancer is a free bootstrap theme created by Start Bootstrap. The dowload includes the complete source files including HTML,CSS and JavaScript as well as optional LESS stylesheets for easy costumization.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p>
+                            Wheter you're a student lokking to showcase your work,a professiona looking to attracts clients,or a graphic artist looking to share your projects,this template is the perfect starting point!
+                        </p>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline-light ms_download">Download</button>
+            </div>
+        </div>
+
+    </section >
+    <section class="ms_form mt-2">
+        <div class="ms_container text-center py-4">
+            <h4 class="text-uppercase">contact me</h4>
+            <div class=" d-inline-block bg-black ms_line "></div>
+            <i class="fa-solid fa-star"></i>
+            <div class=" d-inline-block bg-black ms_line " ></div> 
+            <div class="form-floating">
+              <input type="text" class="form-control" id="fname" placeholder="name">
+              <label for="fname">Name</label>
+            </div>
+            <div class="form-floating ">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input type="tel" class="form-control" id="numero" placeholder="name@example.com">
+                <label for="numero">Numero</label>
+            </div>
+            <div class="form-floating ms_text border-bottom">
+                <input type="text" class="form-control border-0" id="messaggio" placeholder="name@example.com" >
+                <label for="messaggio">Messaggio</label>
+            </div>
+            <div class="text-start mt-2">
+                <button type="submit" class="btn btn-info ms_submit">send</button>
+            </div>
+        </div>
+    </section>
+   </main>
+   <!-- /MAIN -->
+   <!-- FOOTER -->
+   <footer class="ms_footer-top text-white py-4">
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-12 col-md-4 text-center">
+                <h6 class="text-uppercase">location</h6>
+                    <address>
+                        2215 jhon Daniel Drive clark,MO <br>
+                        544243
+                    </address>
+                
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <h6 class="text-uppercase">around the web</h6>
+                <div>
+                    <span class=" border d-inline-block rounded-circle border-1 border-white">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </span>
+                    <span class=" border d-inline-block rounded-circle border-1 border-white">
+                        <i class="fa-brands fa-google-plus-g d-inline-block rounded-circle border-white"></i>
+                    </span>
+                    <span class=" border d-inline-block rounded-circle border-1 border-white">
+                        <i class="fa-brands fa-twitter"></i>
+                    </span>
+                    <span class=" border d-inline-block rounded-circle border-1 border-white">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </span>
+                   
+                  
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <h6 class="text-uppercase">about fleelancer</h6>
+                <div>
+                    Freelancer is a free to use,open source Bootstrap theme created by
+                     <a href="" class="link-info text-decoration-none">start bootstrap</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   </footer>
+   <footer class="ms_footer-bottom py-4 text-center text-white ">
+    <small>copyright <i class="fa-regular fa-copyright"></i>your website</small>
+
+   </footer>
+   <!-- /FOOTER -->
+   
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+</body>
+</html>
